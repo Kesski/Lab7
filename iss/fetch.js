@@ -48,7 +48,7 @@ function iss(attempts) {
         }
 
         let now = Date()
-        timeIssLocatorFetched.innerHTML = 'This data was fetched at ${now}'
+        timeIssLocatorFetched.innerHTML = `This data was fetched at ${now}`
 
     }).catch( (err) => {
         attempts-- // subtract 1 from number of attempts
